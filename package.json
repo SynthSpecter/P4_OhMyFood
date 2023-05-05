@@ -1,0 +1,11 @@
+{
+  "name": "p4_ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 4 Formation OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss:assets/css/style.css --style compressed"
+  },
+  "author": "Kevin T. Leroux",
+  "license": "ISC"
+}
