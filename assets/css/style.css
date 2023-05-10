@@ -1,7 +1,1 @@
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-/*# sourceMappingURL=style.css.map */
+*,::before,::after{box-sizing:border-box}body{margin:0}header{display:flex;justify-content:center;align-items:center}header img{width:50%}:root{--main-color: #9356DC;--second-color: #FF79DA;--third-color: #99E2D0}/*# sourceMappingURL=style.css.map */
