@@ -1,0 +1,28 @@
+.restaurants {
+    display: flex;
+    flex-direction: column;
+
+    .restaurants__container {
+        display: flex;
+    }
+
+        .restaurants__cards {
+            display: flex;
+            flex-direction: column;
+        }
+
+            a {
+                text-decoration: none;
+                color: black;
+                width: 100%;
+            }
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                }
+                
+                    .restaurants__content {
+                        display: flex;
+                    }
+}

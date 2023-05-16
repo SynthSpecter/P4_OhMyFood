@@ -1,0 +1,36 @@
+.functionnement {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+
+    .functionnement__cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #f7f7f7;
+        border: solid 1px transparent;
+        gap: 1rem;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        padding: 25px 0 25px 0;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+
+        i {
+            color: gray;
+        }
+
+        .functionnement__number {
+            border: solid 1px #9356DC;
+            border-radius: 20px;
+            background-color: #9356DC;
+            color: white;
+            padding: 3px 8px 3px 8px;
+            margin-left: -15px;
+            margin-right: 20px;
+        }
+}

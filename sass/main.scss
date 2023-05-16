@@ -1,7 +1,19 @@
 @import "./base/index";
-@import "./composants/index";
-@import "./layout/index";
+
+@import "./components/research";
+@import "./components/explorer";
+@import "./components/button";
+@import "./components/functionnement";
+@import "./components/restaurants.scss";
+
+@import "./layout/header";
+@import "./layout/footer";
+
 @import "./pages/index";
+
 @import "./themes/index";
-@import "./utils/index";
+
+@import "./utils/variables";
+@import "./utils/extensions";
+
 @import "./vendors/index";
