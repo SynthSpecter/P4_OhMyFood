@@ -1,3 +1,7 @@
+.functionning__title {
+    margin-left: 1rem;
+}
+
 .functionnement {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,7 @@
 
         &:hover {
             transform: scale(1.02);
+            background-color: var(--main-color-lighter);
         }
     }
 
@@ -25,9 +30,9 @@
         }
 
         .functionnement__number {
-            border: solid 1px #9356DC;
+            border: solid 1px var(--main-color);
             border-radius: 20px;
-            background-color: #9356DC;
+            background-color: var(--main-color);
             color: white;
             padding: 3px 8px 3px 8px;
             margin-left: -15px;
