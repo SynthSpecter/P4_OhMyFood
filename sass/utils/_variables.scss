@@ -3,5 +3,6 @@
     --second-color: #FF79DA;
     --third-color: #99E2D0;
 
-    --main-color-lighter: lighten((var(--main-color)), 20);
+    --main-color-lighter: lighten((var(--main-color)), 80%);
+    --third-color-darker: darken((var(--third-color)), 40%);
 }

@@ -1,14 +1,32 @@
 footer {
     background-color: #464646;
+    padding: 2rem;
 
     a {
         text-decoration: none;
         color: white;
     }
 
+    a:hover {
+        text-decoration: underline;
+    }
+
+    h4 {
+        color: white;
+        font-weight: 700;
+        font-size: larger;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
         li {
-            list-style-type: none
-            ;
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+
+        i {
+            margin-right: 10px;
         }
         
 }

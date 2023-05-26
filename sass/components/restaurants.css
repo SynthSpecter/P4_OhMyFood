@@ -1,0 +1,80 @@
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.restaurants__title {
+  padding-left: 1rem;
+}
+.restaurants__container {
+  display: flex;
+}
+.restaurants__cards {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  padding: 1rem;
+}
+.restaurants a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.restaurants__img {
+  height: 230px;
+}
+.restaurants img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.restaurants__content {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem;
+}
+.restaurants__subtitle {
+  width: 80%;
+  height: auto;
+}
+.restaurants h3, .restaurants p {
+  margin: 0;
+}
+.restaurants .new {
+  position: relative;
+  border: solid 1px var(--third-color);
+  background-color: var(--third-color);
+  color: var(--third-color-darker);
+  font-weight: bold;
+  border-radius: 5px;
+  top: -235%;
+  right: -90%;
+  width: 5rem;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+.restaurants__heart {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  font-size: x-large;
+  width: 25px;
+  height: 25px;
+  bottom: -15%;
+  right: -5%;
+}
+.restaurants i {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.restaurants i:hover {
+  color: red;
+  -webkit-text-stroke-color: red;
+}/*# sourceMappingURL=restaurants.css.map */

@@ -2,19 +2,20 @@
 
 @import "./components/research";
 @import "./components/explorer";
-@import "./components/button";
 @import "./components/functionnement";
-@import "./components/restaurants.scss";
+@import "./components/restaurants";
 
 @import "./layout/header";
 @import "./layout/footer";
 
-@import "./pages/index";
+@import "./pages/menus";
 
 
 @import "./themes/index";
 
 @import "./utils/variables";
 @import "./utils/extensions";
+@import "./utils/keyframes";
+@import "./utils/mixins";
 
 @import "./vendors/index";

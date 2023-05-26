@@ -1,14 +1,14 @@
 .functionning__title {
-    margin-left: 1rem;
+    margin: 2rem 0 0 1rem;
 }
 
 .functionnement {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
     gap: 1rem;
 
-    .functionnement__cards {
+    &__cards {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -21,7 +21,8 @@
 
         &:hover {
             transform: scale(1.02);
-            background-color: var(--main-color-lighter);
+            // background-color: var(--main-color-lighter);
+            background-color: #e9ddf8;
         }
     }
 
@@ -29,7 +30,7 @@
             color: gray;
         }
 
-        .functionnement__number {
+        &__number {
             border: solid 1px var(--main-color);
             border-radius: 20px;
             background-color: var(--main-color);
