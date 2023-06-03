@@ -4,10 +4,12 @@
   "description": "Projet 4 Formation OpenClassrooms",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch sass/main.scss:assets/css/style.css --style compressed"
+    "sass": "sass --watch sass/main.scss:assets/css/style.css --style compressed",
+    "prefix": "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed"
   },
   "author": "Kevin T. Leroux",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "dependencies": {
     "sass": "^1.62.1"
   }

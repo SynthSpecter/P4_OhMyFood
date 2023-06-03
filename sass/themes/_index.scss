@@ -1,3 +1,7 @@
 .styled--title {
     font-family: 'Shrikhand', cursive;
+
+    @include desktop {
+        place-self: center;
+    }
 }

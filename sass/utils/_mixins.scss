@@ -13,3 +13,9 @@
             -webkit-text-fill-color: transparent;
             animation: like 0.5s linear forwards;
         }
+
+@mixin desktop {
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+         @content;
+    }
+}

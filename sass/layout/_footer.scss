@@ -2,6 +2,14 @@ footer {
     background-color: #464646;
     padding: 2rem;
 
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding-left: 50rem;
+    }
+    
+
     a {
         text-decoration: none;
         color: white;
@@ -18,6 +26,11 @@ footer {
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
+
+        @include desktop {
+            position: absolute;
+            right: 50px;
+        }
     }
 
         li {

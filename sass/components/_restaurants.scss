@@ -3,27 +3,35 @@
     flex-direction: column;
     background-color: whitesmoke;
 
+    @include desktop {
+        padding: 0 5rem;
+    }
+
     &__title {
         padding-left: 1rem;
     }
 
-        &__container {
+    .restaurant__container {
+        @include desktop () {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+    }
+
+        &__cards {
             display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            padding: 1rem;
+            position: relative;
         }
 
-            &__cards {
-                display: flex;
-                flex-direction: column;
-                flex-basis: 100%;
-                padding: 1rem;
-                position: relative;
+            a {
+                text-decoration: none;
+                color: black;
+                width: 100%;
             }
-
-                a {
-                    text-decoration: none;
-                    color: black;
-                    width: 100%;
-                }
 
                 &__img {
                     height: 230px;
