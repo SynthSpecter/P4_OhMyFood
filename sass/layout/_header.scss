@@ -3,7 +3,11 @@ header {
     padding: 2rem 1rem 1rem 1rem;
     
     img {
-        width: 30%;
+        width: 40%;
+
+        @include desktop () {
+            width: 20%;
+        }
     }
 
     i {

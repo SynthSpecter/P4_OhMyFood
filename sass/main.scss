@@ -1,22 +1,21 @@
 @import "./utils/mixins";
 @import "./utils/variables";
+@import "./utils/extensions";
+@import "./utils/keyframes";
+
 
 @import "./base/index";
+
+@import "./layout/header";
+@import "./layout/footer";
 
 @import "./components/research";
 @import "./components/explorer";
 @import "./components/functionnement";
 @import "./components/restaurants";
 
-@import "./layout/header";
-@import "./layout/footer";
-
 @import "./pages/menus";
 
-
 @import "./themes/index";
-
-@import "./utils/extensions";
-@import "./utils/keyframes";
 
 @import "./vendors/index";

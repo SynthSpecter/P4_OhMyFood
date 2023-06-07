@@ -4,9 +4,9 @@ footer {
 
     @include desktop {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         gap: 1rem;
-        padding-left: 50rem;
+        padding-left: 40rem;
     }
     
 
@@ -19,18 +19,13 @@ footer {
         text-decoration: underline;
     }
 
-    h4 {
+    .styled--title {
         color: white;
         font-weight: 700;
         font-size: larger;
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
-
-        @include desktop {
-            position: absolute;
-            right: 50px;
-        }
     }
 
         li {
