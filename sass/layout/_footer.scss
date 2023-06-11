@@ -5,10 +5,12 @@ footer {
     @include desktop {
         display: flex;
         flex-direction: row-reverse;
-        gap: 1rem;
-        padding-left: 40rem;
+        gap: 2rem;
     }
     
+    menu {
+        padding: 0;
+    }
 
     a {
         text-decoration: none;
@@ -31,10 +33,14 @@ footer {
         li {
             list-style-type: none;
             margin-bottom: 10px;
+
+            @include desktop {
+                display: inline-block;
+                margin-right: 1rem;
+            }
         }
 
         i {
             margin-right: 10px;
         }
-        
 }

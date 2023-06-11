@@ -18,9 +18,6 @@
   --main-color: #9356DC;
   --second-color: #FF79DA;
   --third-color: #99E2D0;
-  --main-color-lighter: lighten((var(--main-color)), 80%);
-  --third-color-darker: darken((var(--third-color)), 40%);
-  --breakpoint-desktop: 768px;
 }
 
 *,
@@ -246,7 +243,6 @@ footer i {
   width: 40px;
   height: 5px;
   color: var(--third-color);
-  background-color: var(--third-color);
   margin: 0;
   padding: 0;
   border-radius: 1rem;
