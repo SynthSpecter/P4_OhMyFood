@@ -23,7 +23,7 @@
     border-right: 5px solid var(--second-color);
     border-bottom: 5px solid var(--third-color);
     border-radius: 3rem;
-    animation: spin 3s infinite ease-in-out;
+    animation: spin_loader 3s infinite ease-in-out;
   }
 }
 
@@ -41,7 +41,7 @@
 
 // ANIMATION SPIN LOADER
 
-@keyframes spin {
+@keyframes spin_loader {
   from {
     transform: rotate(0);
   }
@@ -96,7 +96,7 @@
 
 // CHECK-UP SPIN
 
-@keyframes spin {
+@keyframes spin_check {
     from {
         transform: rotate(-270deg);
     }
