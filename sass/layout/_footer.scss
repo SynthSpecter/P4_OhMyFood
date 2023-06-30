@@ -5,11 +5,26 @@ footer {
     @include desktop {
         display: flex;
         flex-direction: row-reverse;
-        gap: 2rem;
+        gap: 4rem;
+    }
+
+    .menu__footer {
+        display: flex;
+        flex-direction: column;
+
+        @include desktop {
+            flex-direction: row;
+        }
     }
     
-    menu {
+    .footer__menu {
         padding: 0;
+
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+            gap: 0rem;
+        }
     }
 
     a {
