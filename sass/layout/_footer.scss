@@ -11,6 +11,8 @@ footer {
     .menu__footer {
         display: flex;
         flex-direction: column;
+        padding: 0;
+        margin: 0;
 
         @include desktop {
             flex-direction: row;
@@ -23,7 +25,7 @@ footer {
         @include desktop {
             display: flex;
             flex-direction: row;
-            gap: 0rem;
+            gap: 2rem;
         }
     }
 
