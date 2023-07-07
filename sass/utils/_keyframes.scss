@@ -54,30 +54,40 @@
 
 // HEART-LIKE-ANIMATION
 
-@keyframes like{
+// @keyframes like{
 
-    from {
+//     from {
         
-        transform: scale(1.02);
-        background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
-        background-clip:text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-repeat: no-repeat;
-        background-position-y: 25px;
-    }
+//         transform: scale(1.02);
+//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
+//         background-clip:text;
+//         -webkit-background-clip: text;
+//         color: transparent;
+//         background-repeat: no-repeat;
+//         opacity: 0;
+//     }
 
-    to {
+//     50% {
         
-        transform: scale(1.02);
-        background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
-        background-clip:text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-repeat: no-repeat;
-        background-position-y: 0;
-    }
-}
+//         transform: scale(1.02);
+//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
+//         background-clip:text;
+//         -webkit-background-clip: text;
+//         color: transparent;
+//         background-repeat: no-repeat;
+//         opacity: 0.5;
+//     }
+
+//     to {
+//         transform: scale(1.02);
+//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
+//         background-clip:text;
+//         -webkit-background-clip: text;
+//         color: transparent;
+//         background-repeat: no-repeat;
+//         opacity: 1;
+//     }
+// }
 
 // LOADER-SECTIONS-MENUS
 
