@@ -51,44 +51,6 @@
   }
 }
 
-
-// HEART-LIKE-ANIMATION
-
-// @keyframes like{
-
-//     from {
-        
-//         transform: scale(1.02);
-//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
-//         background-clip:text;
-//         -webkit-background-clip: text;
-//         color: transparent;
-//         background-repeat: no-repeat;
-//         opacity: 0;
-//     }
-
-//     50% {
-        
-//         transform: scale(1.02);
-//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
-//         background-clip:text;
-//         -webkit-background-clip: text;
-//         color: transparent;
-//         background-repeat: no-repeat;
-//         opacity: 0.5;
-//     }
-
-//     to {
-//         transform: scale(1.02);
-//         background: -webkit-linear-gradient(top, var(--main-color), var(--second-color));
-//         background-clip:text;
-//         -webkit-background-clip: text;
-//         color: transparent;
-//         background-repeat: no-repeat;
-//         opacity: 1;
-//     }
-// }
-
 // LOADER-SECTIONS-MENUS
 
 @keyframes appear {
@@ -102,7 +64,6 @@
         opacity: 1;
     }
 }
-
 
 // CHECK-UP SPIN
 

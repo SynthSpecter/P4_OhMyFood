@@ -26,6 +26,10 @@
         top: 3%;
         right: 5%;
 
+        .fa-solid {
+            @include heart--solid
+        }
+
         @include desktop {
             top: 4%;
             right: 30%;
@@ -138,14 +142,13 @@
     transition: margin-right 0.5s ease-in-out;
 
         i {
+            opacity: 1;
             font-size: x-large;
             color: whitesmoke;
             background-clip: text;
             -webkit-background-clip: text;
             }
         }
-        
-
 
 .cta {
     display: flex;
